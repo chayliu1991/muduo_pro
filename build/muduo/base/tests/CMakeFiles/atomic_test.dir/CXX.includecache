@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../muduo/base/Atomic.h
+stdint.h
+-
+NonCopyable.h
+../muduo/base/NonCopyable.h
+
+../muduo/base/NonCopyable.h
+
+/devdata/liuchuanyang/muduo/muduo/base/tests/atomic_test.cc
+muduo/base/Atomic.h
+/devdata/liuchuanyang/muduo/muduo/base/tests/muduo/base/Atomic.h
+assert.h
+-
+

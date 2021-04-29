@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../muduo/base/FileUtil.h
+NonCopyable.h
+../muduo/base/NonCopyable.h
+StringPiece.h
+../muduo/base/StringPiece.h
+
+../muduo/base/NonCopyable.h
+
+../muduo/base/StringPiece.h
+string.h
+-
+string
+-
+
+/devdata/liuchuanyang/muduo/muduo/base/tests/file_util_test.cc
+muduo/base/FileUtil.h
+/devdata/liuchuanyang/muduo/muduo/base/tests/muduo/base/FileUtil.h
+stdio.h
+-
+inttypes.h
+-
+
