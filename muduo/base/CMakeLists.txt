@@ -10,6 +10,10 @@ set(base_SRCS
   ThreadPool.cc
   FileUtil.cc
   ProcessInfo.cc
+  LogStream.cc
+  LogFile.cc
+  Logging.cc
+  AsyncLogging.cc
   )
 
 add_library(muduo_base ${base_SRCS})
